@@ -1,0 +1,25 @@
+npm and npx:
+Well, what is npm?
+npm is node package manager. Whenever we write
+npm install mocha 
+It downloads the required files and dependencies. And then when you write 
+mocha
+It says the term mocha is not recognized as a ……..
+So to correct that 
+We might have to install mocha globally
+Use the path to mocha from node_modules
+./node_modules/mocha/bin/mocha
+Configure test in package.json
+"scripts": {
+    "test": "mocha"
+  }
+We could have directly run npx mocha and it runs it directly, without having to do any of above things
+What is npx?
+It is an npm package runner.  We all know that we are installing the packages to our solution from the location called npm registry and use it. And the npx has been designed in a way that we can directly use the package from the npm registry without even installing it in our solution.
+Let me give you an example, as I mentioned in the background section of this article, we can create a simple react application with the help of Create-React-App from FaceBook. And this is used only for creating the application, and once we create the application, and we are no longer needed this. If you use npm, you will have to install this package either globally or locally before you use this, or else you will get an error. 
+Isn't it good, if we can just use this create-react-app package from the npm registry and create the application in our local machine? And that's where npx stands. With the help of npx, we can reduce the size of our node_modules and I strongly believe that this is a huge benefit.
+It is smart enough to identify whether the package you are trying to get from the npm registry is already there in your machine, either globally or locally. If the package is available in your machine, it will take it from there.
+npx comes with npm 5.2 and above
+With npx we can play with various node modules, without even installing them locally or globally. 
+https://www.codeproject.com/Articles/1264124/npm-vs-npx
+https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/
