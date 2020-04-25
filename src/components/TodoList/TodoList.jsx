@@ -7,15 +7,6 @@ import sadcrying2 from "../../images/sadcrying2.jpg";
 import midhappy3 from "../../images/midhappy3.png";
 import happy4 from "../../images/happy4.png";
 
-
-// function TojdoList() {
-//   const todoComponent = todos.map(function(todoitem) {
-//     return <TodoItem key={todoitem.id} item={todoitem} />;
-//   });
-
-//   return todoComponent;
-// }
-
 class TodoList extends Component {
   constructor() {
     super();
