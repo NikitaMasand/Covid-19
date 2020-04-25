@@ -7,11 +7,11 @@ It also provides a responsive todo that asks to perform few tasks everyday out o
 ## I will try to expand this by adding a few more functionalities. 
 ## The project is open to all the modifications, suggestions and improvements.
 
-## To download the packages
+### To download the packages
 npm i
 
-## To run the project
+### To run the project
 npm start
 
-#Stay Safe and Healthy!
+# Stay Safe and Healthy!
 
